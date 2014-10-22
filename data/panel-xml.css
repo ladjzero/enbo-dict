@@ -1,0 +1,37 @@
+﻿/*I don't know why panel gets style element!*/
+style {display: none}
+
+yodaodict {padding: 8px}
+
+return-phrase {
+	display: inline-block;
+	font-weight: bold;
+	font-family: 微软雅黑;
+	font-size: 16px;
+}
+
+phonetic-symbol {
+	font-family: "lucida sans unicode", arial, sans-serif;
+	font-size: 13px;
+}
+
+phonetic-symbol::before {
+	content: "["
+}
+
+phonetic-symbol::after {
+	content: "]"
+}
+
+custom-translation {
+	display: block;
+	margin-top: 10px;
+}
+
+translation {
+	display: block
+}
+
+dictcn-speach, type, yodao-web-dict, sexp {
+	display:none
+}
